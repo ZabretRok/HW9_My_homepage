@@ -1,0 +1,28 @@
+h1
+{
+    color:#4267b2;
+}
+
+h2
+{
+    color:#4267b2;
+
+}
+.button{
+    background-color: #4267b2;
+    border:none;
+    color:white;
+    font-size: 16px;
+    padding:15px 32px;
+    crusor:pointer;
+}
+.button:hover{
+    background-color: #1f69b0
+}
+
+i:hover{
+    background-color:#4267b2;
+    color:white;
+}
+
+

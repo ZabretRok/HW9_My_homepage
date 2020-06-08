@@ -1,0 +1,113 @@
+body
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+}
+
+.header
+{
+    float:right;
+}
+
+.header a, .header button
+{
+    margin:5px;
+    color:#000;
+    text-decoration:none;
+}
+
+.header button
+{
+    background-color:#4585f1;
+    padding:9px;
+    font-size:15px;
+    color:#fff;
+    border-radius:10%;
+    font-weight:bold;
+}
+
+.logo img
+{
+    widht:300px;
+    height:100px;
+    margin-top: 200px;
+    margin-left:180px;
+}
+
+.button button{
+    margin:10px;
+    padding:10px;
+    border-radius:10%;
+    border:none;
+    font-family: arial, sans-serif;
+    color:#818488
+    cursor:pointer;
+}
+
+
+
+#main
+{
+    text-align:center;
+}
+
+.footer
+{
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    height:auto;
+    background-color:#f2f2f2;
+}
+
+.footer-links a
+{
+    text-decoration:none;
+    color:#000;
+}
+
+.footer-left a
+{
+    float:left;
+    margin:10px;
+    color:#9d9fa2;
+}
+
+.footer-right a
+{
+    float:right;
+    margin:10px;
+    color:#9d9fa2;
+}
+
+.country
+{
+    text-align:left;
+
+    margin:10px;
+    color:#bebebe;
+}
+a:hover
+{
+    text-decoration:underline;
+}
+
+input:hover
+{
+    box-shadow: 2px 2px 2px grey
+
+}
+
+.search-box input
+{
+    border-radius:30px;
+}
+
+hr{
+        height: 1px;
+        background-color: #ccc;
+        border: none;
+    }

@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+        <title>Hairdresser Rok</title>
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    </head>
+<body>
+<!-- NAVIGACIJSKA VRSTICA -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Hair salon</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">                 <!--ml-auto potegne linke na desno-->
+      <li class="nav-item">
+        <a class="nav-link" href="#services">Our services <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#appointment">Make an appointment</a>
+      </li>
+
+        <li class="nav-item">
+        <a class="nav-link" href="#faq">FAQ</a>
+      </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#about" data-toggle="modal" data-target="#exampleModalCenter">About us</a>
+        </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+    </nav>
+<br>
+
+
+
+<!-- CAROUSEL -->
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" >
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-50" style="margin:auto" src="https://images.unsplash.com/photo-1562322140-8baeececf3df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-50" style="margin:auto" src="https://images.unsplash.com/photo-1572457143356-30d0a20f49f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjE3MzYxfQ&auto=format&fit=crop&w=1051&q=80" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-50" style="margin:auto" src="https://images.unsplash.com/photo-1534778356534-d3d45b6df1da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="Third-slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<br>
+<br>
+
+<!-- OUR SERVICES-->
+
+<div class="container mt-4">
+    <h2 class="text-center" id="services">Our services</h2>
+    <br>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Styling
+                    <svg class="bi bi-person-lines-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 100-6 3 3 0 000 6zm7 1.5a.5.5 0 01.5-.5h2a.5.5 0 010 1h-2a.5.5 0 01-.5-.5zm-2-3a.5.5 0 01.5-.5h4a.5.5 0 010 1h-4a.5.5 0 01-.5-.5zm0-3a.5.5 0 01.5-.5h4a.5.5 0 010 1h-4a.5.5 0 01-.5-.5zm2 9a.5.5 0 01.5-.5h2a.5.5 0 010 1h-2a.5.5 0 01-.5-.5z" clip-rule="evenodd"/>
+                    </svg>
+                    </h5>
+                </div>
+                <img class="card-img-bottom" src="https://images.unsplash.com/photo-1572872202671-dc8bd60080ee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="card-image">
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Coloring
+                    <svg class="bi bi-brush" style="float-right"  width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15.213 1.018a.572.572 0 01.756.05.57.57 0 01.057.746C15.085 3.082 12.044 7.107 9.6 9.55c-.71.71-1.42 1.243-1.952 1.596-.508.339-1.167.234-1.599-.197-.416-.416-.53-1.047-.212-1.543.346-.542.887-1.273 1.642-1.977 2.521-2.35 6.476-5.44 7.734-6.411z"/>
+                        <path d="M7 12a2 2 0 01-2 2c-1 0-2 0-3.5-.5s.5-1 1-1.5 1.395-2 2.5-2a2 2 0 012 2z"/>
+                    </svg>
+                    </h5>
+                </div>
+                <img class="card-img-bottom" src="https://cdn.pixabay.com/photo/2016/10/16/11/30/hair-1744959_960_720.jpg" alt="card-item2">
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Haircuts
+                    <svg class="bi bi-tools" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M0 1l1-1 3.081 2.2a1 1 0 01.419.815v.07a1 1 0 00.293.708L10.5 9.5l.914-.305a1 1 0 011.023.242l3.356 3.356a1 1 0 010 1.414l-1.586 1.586a1 1 0 01-1.414 0l-3.356-3.356a1 1 0 01-.242-1.023L9.5 10.5 3.793 4.793a1 1 0 00-.707-.293h-.071a1 1 0 01-.814-.419L0 1zm11.354 9.646a.5.5 0 00-.708.708l3 3a.5.5 0 00.708-.708l-3-3z" clip-rule="evenodd"/>
+                        <path fill-rule="evenodd" d="M15.898 2.223a3.003 3.003 0 01-3.679 3.674L5.878 12.15a3 3 0 11-2.027-2.027l6.252-6.341A3 3 0 0113.778.1l-2.142 2.142L12 4l1.757.364 2.141-2.141zm-13.37 9.019L3.001 11l.471.242.529.026.287.445.445.287.026.529L5 13l-.242.471-.026.529-.445.287-.287.445-.529.026L3 15l-.471-.242L2 14.732l-.287-.445L1.268 14l-.026-.529L1 13l.242-.471.026-.529.445-.287.287-.445.529-.026z" clip-rule="evenodd"/>
+                    </svg>
+                    </h5>
+                </div>
+                <img class="card-img-bottom" src="https://images.unsplash.com/photo-1511920593290-3cb2deb1ce1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="card-item3">
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+
+<!-- APPOINTMENT-->
+
+<div class="container mt-4">
+    <h2 class="text-center" id="appointment">Make an appointment</h2>
+    <br>
+
+    <div class="row">
+        <div class="col-md-6 form-group">
+            <form>
+              <div class="form-group">
+
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="First and last name">
+
+              </div>
+              <div class="form-group">
+                  <input type="text" class="form-control" id="phone" placeholder="Phone number">
+              </div>
+                <div class="form-group">
+
+                <input type="text" class="form-control" id="date" placeholder="Date">
+              </div>
+                <div class="form-group">
+
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Other info (haircut wishes etc.)"></textarea>
+              </div>
+
+
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">I will show up on time!</label>
+              </div>
+              <button type="submit" class="btn btn-outline-dark my-2 my-sm-0">Send</button>
+            </form>
+        </div>
+
+        <div class="col-md-6">
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th scope="col">Day</th>
+                  <th scope="col">Working hours</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Monday</th>
+                  <td>8.00-16.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Tuesday</th>
+                  <td>8.00-16.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Wednesday</th>
+                  <td>10.00-18.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Thursday</th>
+                  <td>8.00-16.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Friday</th>
+                  <td>8.00-16.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Saturday</th>
+                  <td>8.00-12.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Sunday</th>
+                  <td>Closed</td>
+                </tr>
+              </tbody>
+            </table>
+            <i>* We don't work on holidays!</i>
+
+        </div>
+    </div>
+</div>
+<br>
+<br>
+
+<!--FAQ-->
+
+<div class="container mt-4">
+    <h2 class="text-center" id="faq">FAQ (frequently asked questions)</h2>
+    <br>
+
+    <div class="accordion" id="accordionExample">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h2 class="mb-0">
+            <button class="btn btn-link" style="color:black" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Do you have gift certificates?
+            </button>
+          </h2>
+        </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body"style="text-align:justify">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pellentesque, quam vel laoreet consectetur, sapien purus dignissim orci, quis faucibus purus mauris sit amet eros. Morbi facilisis semper eros quis cursus. Proin bibendum non eros vitae vulputate. Nullam ex mi, tristique id posuere a, feugiat at neque. Curabitur tortor nulla, pulvinar non urna blandit, pretium viverra diam. In hac habitasse platea dictumst. Cras odio ligula, semper facilisis augue quis, finibus tristique nisl. Vivamus nec mi tortor.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed" style="color:black" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Can I bring my pet along?
+        </button>
+      </h2>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body"style="text-align:justify">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pellentesque, quam vel laoreet consectetur, sapien purus dignissim orci, quis faucibus purus mauris sit amet eros. Morbi facilisis semper eros quis cursus. Proin bibendum non eros vitae vulputate. Nullam ex mi, tristique id posuere a, feugiat at neque. Curabitur tortor nulla, pulvinar non urna blandit, pretium viverra diam. In hac habitasse platea dictumst. Cras odio ligula, semper facilisis augue quis, finibus tristique nisl. Vivamus nec mi tortor.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed" style="color:black" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          What awards did you recieve so far?
+        </button>
+      </h2>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body" style="text-align:justify">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pellentesque, quam vel laoreet consectetur, sapien purus dignissim orci, quis faucibus purus mauris sit amet eros. Morbi facilisis semper eros quis cursus. Proin bibendum non eros vitae vulputate. Nullam ex mi, tristique id posuere a, feugiat at neque. Curabitur tortor nulla, pulvinar non urna blandit, pretium viverra diam. In hac habitasse platea dictumst. Cras odio ligula, semper facilisis augue quis, finibus tristique nisl. Vivamus nec mi tortor.
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<br>
+<br>
+
+<!--FOOTER-->
+<hr>
+<footer class="container mt-4">
+    <div class="row">
+        <div class="col-md-4">
+            <h3>Contact</h3>
+            <p>Hairdresser Rok, Rok Zabret s.p.</p>
+            <p>Tax number: 98698698</p>
+            <p>Frizerska 4, 1000 Ljubljana</p>
+            <p>Phone: 031/031-031</p>
+            <p>Email: info@hairdresserrok.com</p>
+        </div>
+        <div class="col-md-4">
+                <img width="250px" src="https://images.unsplash.com/photo-1572872202671-dc8bd60080ee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="footer-img">
+        </div>
+        <div class="col-md-4">
+            <h3>Navigation</h3>
+            <a href="#services" style="color:black">Our services</a><br>
+            <a href="#appointment" style="color:black">Make an appointment</a><br>
+            <a href="#faq" style="color:black">FAQ</a><br>
+            <a href="#about" data-toggle="modal" data-target="#exampleModalCenter" style="color:black">About us</a><br>
+        </div>
+    </div>
+</footer>
+
+<!--Modal - Aboutus-->
+
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalCenterTitle">About us</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt malesuada interdum. Pellentesque ac tortor lobortis, tincidunt tellus non, consequat dui. Cras quis velit eu lorem condimentum mollis ut ornare magna. </p>
+          <p>Cras quis ipsum convallis, pretium magna non, efficitur nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc id pulvinar metus, sed auctor ex. </p>
+          <hr>
+          <img class="img-fluid" src="https://images.unsplash.com/photo-1497433550656-7fb185be365e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="modal-img">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
