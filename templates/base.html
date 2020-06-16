@@ -2,12 +2,7 @@
 <html lang="en">
 <head>
 <style>
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 10px;
-        }
-    li {
+    div .a{
         display: inline;
         }
 </style>
@@ -15,11 +10,11 @@
     <title>{% block title %}{% endblock %} | My Webpage</title>
 </head>
 <body>
-<ul>
-    <li><a href="/">HOME</a></li>
-    <li><a href="/portfolio">PORTFOLIO</a></li>
-    <li><a href="/about">ABOUT ME</a></li>
-</ul>
+<div>
+    <a href="/">HOME</a>
+    <a href="/portfolio">PORTFOLIO</a>
+    <a href="/about">ABOUT ME</a>
+</div>
     {% block content %}
     {% endblock content %}
 </body>
