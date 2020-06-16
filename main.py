@@ -1,3 +1,5 @@
+import datetime
+
 from flask import Flask, render_template
 
 app = Flask(__name__)
@@ -5,7 +7,8 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return render_template("index.html")
+
+    return render_template("index.html", author = "Rok")
 
 
 @app.route("/about")
@@ -15,7 +18,10 @@ def about():
 
 @app.route("/portfolio")
 def portfolio():
-    return render_template("portfolio.html")
+    exercises = [{"title": "Boogle", "author": "Rok", "url": "/portfolio/boogle"},
+                 {"title": "Fakebook", "author": "Rok", "url": "/portfolio/fakebook"},
+                 {"title": "Hair Salon", "author": "Rok", "url": "/portfolio/hair-salon"}]
+    return render_template("portfolio.html", exercises = exercises)
 
 
 @app.route("/portfolio/fakebook")

@@ -1,14 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Portfolio</title>
-</head>
-<body>
-    <h1>Here are the recent exercises I've done, during the class:</h1>
+{% extends "base.html" %}
 
-    <h2><a href="portfolio/boogle">BOOGLE</a></h2>
-    <h2><a href="portfolio/fakebook">FAKEBOOK</a></h2>
-    <h2><a href="portfolio/hair-salon">HAIR SALON</a></h2>
-</body>
-</html>
+{% block title %}Portfolio{% endblock%}
+
+{% block content %}
+    <h1>Here are the recent exercises I've done, during the class:</h1>
+    {% for exercise in exercises %}
+    <li><a href="{{ exercise.url }}">{{exercise.title}}, author: {{exercise.author}} </a></li>
+    {% endfor %}
+{% endblock %}
+

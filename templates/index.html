@@ -1,14 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>My homepage</title>
-</head>
-<body>
-<h1>Welcome, visitor</h1>
+{% extends "base.html" %}
+{% block title %}Home{% endblock%}
 
-<h2><a href="/portfolio">PORTFOLIO</a></h2>
-<h2><a href="/about">ABOUT ME</a></h2>
+{% block content %}
+<p>This is my homepage. My name is {{author}}, feel free to look around!</p>
+{% endblock %}
 
-</body>
-</html>
